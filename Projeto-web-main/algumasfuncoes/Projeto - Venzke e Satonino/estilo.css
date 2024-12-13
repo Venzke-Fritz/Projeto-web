@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.menuNav nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #172c00;
+  position: relative;
+}
+
+.menuNav nav ul li {
+  position: relative;
+}
+
+.menuNav nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menuNav nav ul li a:hover {
+  background-color: #275d1e;
+}
+
+#Link_login {
+  color: white;
+  font-size: 17px;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  align-self: end;
+  position: relative;
+  margin-left: auto;
+}
+
+#Link_login:hover {
+  background-color: #275d1e;
+}
+
+/* Estilizando o dropdown */
+.menuNav nav ul li .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #172c00;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  box-shadow: 0px 4px 6px rgba(218, 192, 192, 0.1);
+  z-index: 1;
+}
+/* submenu*/
+.menuNav nav ul li .dropdown-menu li {
+  display: block;
+}
+
+.menuNav nav ul li .dropdown-menu li a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menuNav nav ul li .dropdown-menu li a:hover {
+  background-color: #1d5e16;
+}
+
+.menuNav nav ul li:hover .dropdown-menu {
+  display: block;
+}
+
+.text {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Colocando o copyright para direita */
+footer {
+  background-color: #172c00;
+  color: white;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.cpD {
+  margin: 0;
+}
+
+/* Estilizando o bloco de formulário*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+/*-------------------------------*/
+
+
+*{
+
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  padding: 1rem;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  width: 500px;
+  margin: 0%;  
+ 
+  
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+input, select, textarea{
+      width: 500px;
+      padding: 5px;
+      border: solid  #172c00;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      
+
+}
+
+/* Colocando o copyright para direita */
+footer {
+  background-color: #172c00;
+  color: white;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+
+ .botao{
+  margin: 0;
+  cursor: pointer;
+  background-color: chartreuse;
+  font-size:  10px;
+  font-weight: 500;
+
+
+}
+
+
+
+
+
